@@ -1,9 +1,8 @@
-import { useQuery } from "@apollo/react-hooks";
-import gql from "graphql-tag";
+import { gql, useQuery } from "@apollo/client";
 
 export const ALL_COUPLES_QUERY = gql`
   query ALL_COUPLES_QUERY {
-    category(id: "1") {
+    category(id: "2") {
       data {
         attributes {
           restaurants {

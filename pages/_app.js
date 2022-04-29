@@ -2,7 +2,7 @@
 import React from "react";
 import App from "next/app";
 import Head from "next/head";
-import withData from "../lib/apollo";
+import withApollo from "../lib/apollo";
 import Page from "../components/Page";
 import "../components/styles/nav.css";
 
@@ -14,4 +14,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default withData(MyApp);
+export default withApollo({ ssr: true })(MyApp);

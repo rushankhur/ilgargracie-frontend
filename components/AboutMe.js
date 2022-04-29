@@ -2,12 +2,12 @@ export default function AboutMe() {
   return (
     <div>
       <br />
-      <h1>Ilgar Gracie</h1>
+      <h1>The best photographer</h1>
       <p>
         <i>Capturing moments</i>
       </p>
       <p>
-        Hi I’m Ilgar, a photographer based in Halifax, Canada. My strong passion
+        Hi I’m the best photographer, a photographer based in Canada. My strong passion
         <br />
         to create and tell stories led me into the world of photo production.
         <br />
@@ -17,8 +17,8 @@ export default function AboutMe() {
       </p>
       <br />
       <p>Stay in touch:</p>
-      <p>hello@ilgargracie.pro</p>
-      <p>+1 782 234 8204</p>
+      <p>hello@thebestphotographer.pro</p>
+      <p>+1 777 777 7777</p>
     </div>
   );
 }
